@@ -107,8 +107,8 @@ EOF
         - can be referenced with 
             - var.server_port 
             - ${var.server_port}
-            - 
-    - 
+            
+    
 - outputs 
     - are returned from the infrastructure  after provisioning
         - will be returned by ec2 instance
@@ -117,6 +117,3 @@ EOF
 	description ="server public ip address"
 	value = .aws_instance.myServer.public_ip 
 }
-- 
-- 
-- 
